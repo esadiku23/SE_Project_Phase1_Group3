@@ -81,6 +81,7 @@ Testing:
 •	Lead the integration testing effort during the dedicated testing phase (Week 4)
 
 
+
 2. Dion Dhima — Full-Stack Developer & UI Lead
    
 Primary Focus: Design System & Shared Components
@@ -164,6 +165,7 @@ Backend:
 •	Implement simulated online card payment flow and pay-at-terminal booking hold
 
 QA Lead:
+
 •	Own the overall test plan and testing strategy for the project
 
 •	Coordinate bug tracking and resolution across all modules
