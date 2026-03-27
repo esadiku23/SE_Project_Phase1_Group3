@@ -24,12 +24,14 @@ Problem Statement:
 In Albania, intercity bus travel is one of the most commonly used modes of transportation. Despite this, the entire booking process remains completely offline — passengers must physically visit bus terminals, call operators, or rely on word of mouth to find schedules and buy tickets. Bus operators manage seat availability, routes, and drivers through paper logs and phone calls, leading to overbooking, disorganized departures, and no reliable way for passengers to plan their trips in advance. There is currently no Albanian platform that digitizes intercity bus operations and connects operators, drivers, and passengers under one unified, role-based system.
 
 Proposed Solution:
-ALBus is an application that connects terminal operators, drivers, and passengers in one role-based system — with real-time trip management, smart ticket booking, and online payment support. Each role has a dedicated dashboard with access restricted to their own data, ensuring security and clarity of responsibility across the platform.
+ALBus is an application that connects terminal operators, drivers, and passengers in one role-based system — with real-time trip management and online payment support. Each role has a dedicated dashboard with access restricted to their own data, ensuring security and clarity of responsibility across the platform.
 
 Project Scope:
+
 •	Aim: To digitize and streamline Albania's intercity bus operations by providing a unified platform for operators, drivers, and passengers.
 
 •	Objectives: 
+
 1.	Enable operators to manage routes, trips, drivers, and bookings from a single dashboard.
 2.	Allow passengers to search, book, and pay for tickets online with automatic discount calculation.
 3.	Give drivers real-time access to their assigned trips and passenger manifests.
@@ -39,9 +41,13 @@ Project Scope:
 Application Description:
 
 ALBus is an application built with Java 23 and JavaFX 23, backed by a MySQL database. It serves three types of users:
+
 •	Operators manage their terminal's routes, trips, drivers, and bookings. They can send and receive inter-terminal route requests and set daily capacity limits.
+
 •	Drivers view their assigned trips, mark departure/arrival, and manage passenger payment collection on board.
+
 •	Passengers search for available trips, book multiple tickets in one session, get seats automatically assigned, apply automatic age-based discounts, and pay online or at the terminal.
+
 Key features include secure password hashing, automatic seat assignment, discount tiers (children, students, elderly), simulated card payment, and a clean JavaFX UI.
 
 Roles and Tasks
@@ -78,7 +84,7 @@ Testing:
 
 •	Write unit tests for all backend logic
 
-•	Lead the integration testing effort during the dedicated testing phase (Week 4)
+•	Lead the integration testing effort during the dedicated testing phase
 
 
 
