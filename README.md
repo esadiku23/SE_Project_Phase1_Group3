@@ -40,7 +40,7 @@ Project Scope:
    
 Application Description:
 
-ALBus is an application built with Java and JavaFX, backed by a MySQL database. It serves three types of users:
+ALBus is an application built with Java, backed by a MySQL database. It serves three types of users:
 
 •	Operators manage their terminal's routes, trips, drivers, and bookings. They can send and receive inter-terminal route requests and set daily capacity limits.
 
