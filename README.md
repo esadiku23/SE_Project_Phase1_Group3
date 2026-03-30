@@ -1,4 +1,4 @@
-# SE_Project_Phase1_Group3
+# SE_Project_Phase1_TeamC3
 Software Engineering Project Phase 1
 
 Team Information
